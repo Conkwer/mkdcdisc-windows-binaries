@@ -97,7 +97,10 @@ sed -i.bak -e "s/allow_undefined=yes/allow_undefined=no/" libtool
 make install
 ```
 
-Windows with MinGW-w64 without MSYS2 (`MSYSTEM=MINGW64`): `pacman --noconfirm -Syu git mingw-w64-x86_64-autotools mingw-w64-x86_64-gcc mingw-w64-x86_64-libtool mingw-w64-x86_64-make mingw-w64-x86_64-libiconv mingw-w64-x86_64-git mingw-w64-x86_64-meson`
+Windows with MinGW-w64 without MSYS2 (`MSYSTEM=MINGW64`): 
+```
+pacman --noconfirm -Syu git mingw-w64-x86_64-autotools mingw-w64-x86_64-gcc mingw-w64-x86_64-libtool mingw-w64-x86_64-make mingw-w64-x86_64-libiconv mingw-w64-x86_64-git mingw-w64-x86_64-meson
+```
 
 ## Download and Build
 ```
