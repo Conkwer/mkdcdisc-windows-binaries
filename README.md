@@ -102,7 +102,7 @@ Windows with MinGW-w64 without MSYS2 (`MSYSTEM=MINGW64`): `pacman --noconfirm -S
 ## Download and Build
 ```
 # clone source
-git clone [https://github.com/Conkwer/mkdcdisc-windows-binaries/releases](https://github.com/Conkwer/mkdcdisc-windows-binaries)
+git clone https://github.com/Conkwer/mkdcdisc-windows-binaries
 cd mkdcdisc
 
 meson setup builddir
